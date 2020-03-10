@@ -1,10 +1,15 @@
 -- CREATE DATABASE burgers_db;
 USE burgers_db
-CREATE TABLE burgers_db.burgers
+
+DROP TABLE burgers_db.burgers
+
+
+CREATE TABLE burgers
 (
-    Id INT(20) AUTO_INCREMENT NOT NULL, -- primary key column
-    burger_name VARCHAR(50) NOT NULL,
-    devoured BOOLEAN,
-    PRIMARY KEY (Id)
+    id int NOT NULL AUTO_INCREMENT,
+	title varchar(50) NOT NULL,
+	eaten BOOLEAN DEFAULT false,
+	PRIMARY KEY (id)
     -- specify more columns here
 );
+
