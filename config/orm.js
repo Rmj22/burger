@@ -51,7 +51,7 @@ var orm = {
     });
   },
   create: function(vals, cb) {
-    var queryString = "INSERT INTO burgers(title) VALUES (";
+    var queryString = "INSERT INTO burgers(name) VALUES (";
     queryString += printQuestionMarks(vals.length);
     queryString += ") "; 
 

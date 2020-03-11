@@ -7,7 +7,7 @@ DROP TABLE burgers_db.burgers
 CREATE TABLE burgers
 (
     id int NOT NULL AUTO_INCREMENT,
-	title varchar(50) NOT NULL,
+	name varchar(50) NOT NULL,
 	eaten BOOLEAN DEFAULT false,
 	PRIMARY KEY (id)
     -- specify more columns here
