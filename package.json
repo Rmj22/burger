@@ -1,26 +1,17 @@
 {
-  "name": "burgerhw",
+  "name": "node_what_todo",
   "version": "1.0.0",
-  "description": "A database app that uses MySQL, Express, Node and handlebars.",
-  "main": "index.js",
+  "description": "-Node \r -Express \r -MySQL \r -Handlebars \r -Jquery",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rmj22/burger.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Rmj22/burger/issues"
-  },
-  "homepage": "https://github.com/Rmj22/burger#readme",
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
-    "mysql": "^2.18.1",
-    "sequelize": "^5.21.5"
-  }
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {}
 }
